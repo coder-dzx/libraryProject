@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="LibrarySystem:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/LibrarySystem_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="LibrarySystem/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="LibrarySystem" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="c3p0-0.9.1.2" module-name="LibrarySystem" />
+          <element id="library" level="module" name="jackson-annotations-2.2.3" module-name="LibrarySystem" />
+          <element id="file-copy" path="$PROJECT_DIR$/LibrarySystem/web/lib/javax.mail-1.6.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/LibrarySystem/web/lib/alipay-sdk-java-3.7.89.ALL.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/LibrarySystem/web/lib/commons-logging-1.1.1.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
